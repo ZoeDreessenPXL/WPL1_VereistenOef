@@ -21,6 +21,7 @@
                 succes = userName == setUserName && password == setPassword;
                 if (succes)
                 {
+                    Console.WriteLine($"Welcome {userName}.");
                     return;
                 }
                 tries++;

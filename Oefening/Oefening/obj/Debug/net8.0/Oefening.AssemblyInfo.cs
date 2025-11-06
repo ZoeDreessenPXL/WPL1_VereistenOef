@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oefening")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab46b1a2f9aaf9ee4b392fb236c5bf8b0faa3e1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15d61e6ac519f9305b0aa22230c3008f52649045")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oefening")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oefening")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
