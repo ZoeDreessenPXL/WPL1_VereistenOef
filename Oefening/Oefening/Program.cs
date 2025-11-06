@@ -9,14 +9,23 @@
             string userName;
             string password;
             bool succes;
+            int tries = 0;
 
-            Console.Write("Enter username: ");
-            userName = Console.ReadLine();
-            Console.Write("Enter password: ");
-            password = Console.ReadLine();
+            while (tries < 3)
+            {
+                Console.Write("Enter username: ");
+                userName = Console.ReadLine();
+                Console.Write("Enter password: ");
+                password = Console.ReadLine();
 
-            succes = userName == setUserName && password == setPassword;
-            Console.WriteLine(succes);
+                succes = userName == setUserName && password == setPassword;
+                if (succes)
+                {
+                    return;
+                }
+                tries++;
+                Console.WriteLine($"Wrong password or username. {3 - tries} tries left.");
+            }
         }
     }
 }
